@@ -24,9 +24,6 @@ export const DetailsMoviesComponent = () => {
     }));
   }, [id, moveDatails.title, setState]);
 
-  // eslint-disable-next-line no-console
-  console.log(state.numPage);
-
   return (
     <PageLayout>
       {!moveDatails ? (

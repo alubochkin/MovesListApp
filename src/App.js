@@ -16,9 +16,6 @@ function App() {
 
   document.title = state.titlePage;
 
-  // eslint-disable-next-line no-console
-  console.log('STATE------------>', state);
-
   return (
     <Context.Provider value={{ state, setState }}>
       <Router>
